@@ -100,3 +100,8 @@
     background-color: #04AA6D; /* Background color for options */
     color: #ffffff; /* Text color for options */
 }
+#eastereggtext {
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Arial;
+}
