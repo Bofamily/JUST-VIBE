@@ -85,6 +85,8 @@
     color: #ffffff; /* Set text color */
     cursor: pointer; /* Change cursor to pointer */
     transition-duration: 0.4s; /* Add transition for hover effect */
+    border-radius: 8px; /* Round the corners */
+    font-family: Arial; /* Set font family */
 }
 
 #dropdown:hover {
@@ -95,6 +97,6 @@
 }
 
 #dropdown option {
-    background-color: #fff; /* Background color for options */
-    color: #333; /* Text color for options */
+    background-color: #04AA6D; /* Background color for options */
+    color: #ffffff; /* Text color for options */
 }
