@@ -4,7 +4,7 @@ function clicked1() {
 function clicked2() {
     document.getElementById("header").innerHTML = "JUST VIBE";
 }
-function handleSelection(value) {
+function langSelection(value) {
     if (value === "option1") {
         console.log("Option 1 selected");
         document.getElementById("header").innerHTML = "JUST VIBE";
