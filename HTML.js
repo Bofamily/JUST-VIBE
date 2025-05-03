@@ -29,5 +29,6 @@ function langSelection(value) {
         document.getElementById("langdropdown").innerHTML = "Sprache wählen:";
         document.getElementById("button1").innerHTML = "Suchen";
         document.getElementById("input1").placeholder = "Google durchsuchen";
+        
     }
 }
