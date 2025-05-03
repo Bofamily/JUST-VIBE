@@ -1,4 +1,5 @@
-<html>
+<html lang="en">
+    <meta charset="UTF-8">
     <head>
         <link rel="stylesheet" href="HTML.css">
         <script src="HTML.js"></script>
@@ -7,32 +8,41 @@
     </head>
     <body>
         <H1 id="header">JUST VIBE</H1>
-        <input type="text" placeholder="JUST VIBE" id="input">
-        <button onclick="document.getElementById('input').value = 'JUST VIBE'" id="button1">Clear</button>
+        
+        <!--<input type="text" placeholder="JUST VIBE" id="input">
+        <button onclick="document.getElementById('input').value = 'JUST VIBE'" id="button1">Clear</button>-->
+        
         <section></section>
 
-        <button id="button" onclick=clicked1()>BUTTON</button>
-        <button id="button" onclick=clicked2()>Reset</button>
+        <button id="button1000" onclick=clicked1()>BUTTON</button>
+        <button id="button2000" onclick=clicked2()>Reset</button>
+        
         <section></section>
+        
         <audio controls autoplay loop>
             <source src="Nyan.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
+        
         <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
         <input name="sitesearch" type="hidden" value="" id="input1">
         <input autocomplete="on" class="form-control search" name="q" placeholder="Search Google" required="required"  type="text" id="input1">
         <button class="button" type="submit" id="button1">Search</button>
-</form>
+        </form>
+        
         <section></section>
+        
         <img src="Nyan.gif" alt="Nyan cat GIF">
         <img src="hovering-cats.gif" alt="hovering cats GIF">
+        
         <section>
-            <label for="dropdown">Choose an option:</label>
-            <select id="dropdown" name="dropdown">
+            <label for="dropdown" id="langdropdown">Choose a language:</label>
+            <select id="dropdown" name="dropdown" onchange="langSelection(this.value)">
                 <option value="option1">English</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
+                <option value="option2">Français</option>
+                <option value="option3">Deutsch</option>
             </select>
         </section>
+    
     </body>
 </html>
