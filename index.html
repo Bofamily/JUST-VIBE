@@ -11,6 +11,15 @@
         
         <!--<input type="text" placeholder="JUST VIBE" id="input">
         <button onclick="document.getElementById('input').value = 'JUST VIBE'" id="button1">Clear</button>-->
+
+        <section>
+            <label for="dropdown" id="langdropdown">Choose a language:</label>
+            <select id="dropdown" name="dropdown" onchange="langSelection(this.value)">
+                <option value="option1">English</option>
+                <option value="option2">Français</option>
+                <option value="option3">Deutsch</option>
+            </select>
+        </section>
         
         <section></section>
 
@@ -34,15 +43,6 @@
         
         <img src="Nyan.gif" alt="Nyan cat GIF">
         <img src="hovering-cats.gif" alt="hovering cats GIF">
-        
-        <section>
-            <label for="dropdown" id="langdropdown">Choose a language:</label>
-            <select id="dropdown" name="dropdown" onchange="langSelection(this.value)">
-                <option value="option1">English</option>
-                <option value="option2">Français</option>
-                <option value="option3">Deutsch</option>
-            </select>
-        </section>
     
     </body>
 </html>
